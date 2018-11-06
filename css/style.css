@@ -1,0 +1,42 @@
+*{
+	/*reset*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/*scroll-behavior: smooth;*/
+
+}
+
+body {
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.box-colors {
+	height: 190px;
+	width: 300px;
+	color: black;
+	border: 1px solid lightgrey;
+	margin: 2px;
+
+    /*display: -webkit-box;*/
+    /*display: -moz-box;*/
+    /*display: -ms-flexbox;*/
+    /*display: -webkit-flex;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+	width: 918px;
+	margin: 0 auto;
+	border: 1px solid lightgrey;
+	padding: 1px;
+}
+
+
+.text {
+	font-size: 40px;
+	box-shadow: 20px;
+}
